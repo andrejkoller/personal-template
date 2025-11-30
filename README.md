@@ -1,20 +1,48 @@
-<div align="center">
-  <div>
-    <img src="https://github.com/user-attachments/assets/21d6002f-fb39-4353-b9a1-14603a575c9d">
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/bd96bb9c-25fc-452d-ab13-7a456d3a36e5">
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/283e084e-5efd-4d8e-9881-2d1d24301e7a">
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/502c5928-af7d-4397-b19e-bf96a4f7a497">
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/5a647914-c75a-45a0-b45a-2d3114a0a631">
-  </div>
-  <div>
-    <img src="https://github.com/user-attachments/assets/e6b164cc-ac38-45fd-8e7a-f265d0aa8582">
-  </div>
-</div>
+## Short description
+
+A modern, responsive personal portfolio website template built with vanilla HTML, CSS, and JavaScript. Features smooth scroll animations, mobile-first responsive design, and clean typography using the Poppins font family.
+
+## ✨ Features
+
+- Fully Responsive: Optimized for all screen sizes with 8 distinct breakpoints
+- Smooth Scroll Animations: IntersectionObserver-based animations triggered on scroll
+- Modern Design: Clean, minimalist interface with focus on content
+- Mobile-First: Progressive enhancement from mobile to desktop
+- Zero Dependencies: Pure vanilla JavaScript, no frameworks required
+- Performance Optimized: Lightweight and fast-loading
+- Easy Customization: Well-organized code with clear structure
+
+## 🛠️ Technologies Used
+
+- HTML5: Semantic markup
+- CSS3: Custom properties, Flexbox, Grid, animations
+- JavaScript (ES6+): IntersectionObserver API, classes
+- Font Awesome: Icon library
+- Poppins Font: Google Fonts typography (9 weights)
+
+## 🚀 Getting Started
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/andrejkoller/personal-template.git
+cd personal-template
+```
+
+2. Open `index.html` in your browser or use a local development server:
+
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Using Node.js (http-server)
+npx http-server
+```
+
+3. Navigate to `http://localhost:8000`
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
