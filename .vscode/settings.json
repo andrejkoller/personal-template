@@ -1,23 +1,9 @@
 {
     "liveServer.settings.port": 5501,
-    "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#c31224",
-        "activityBar.background": "#c31224",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#20af10",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#c31224",
-        "statusBar.background": "#940e1b",
-        "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#c31224",
-        "statusBarItem.remoteBackground": "#940e1b",
-        "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#940e1b",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#940e1b99",
-        "titleBar.inactiveForeground": "#e7e7e799"
-    },
-    "peacock.color": "#940E1B"
+    "liveServer.settings.root": "/src",
+    "liveServer.settings.ignoreFiles": [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass"
+    ]
 }

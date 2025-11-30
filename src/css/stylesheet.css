@@ -983,7 +983,7 @@ body {
 }
 
 .project-images-middle-first {
-  background-image: url("/src/assets/images/placeholder-image.jpg");
+  background-image: url("assets/images/placeholder-image.jpg");
 }
 
 .project-link {
@@ -993,11 +993,11 @@ body {
 }
 
 .project-images-middle-second {
-  background-image: url("/src/assets/images/placeholder-image.jpg");
+  background-image: url("assets/images/placeholder-image.jpg");
 }
 
 .project-images-middle-third {
-  background-image: url("/src/assets/images/placeholder-image.jpg");
+  background-image: url("assets/images/placeholder-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
