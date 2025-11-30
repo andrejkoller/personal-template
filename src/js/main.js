@@ -1,6 +1,3 @@
-let copyrightYear = document.write(new Date().getFullYear());
-let myButton = document.getElementById("myLogo");
-
 function scrollToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
