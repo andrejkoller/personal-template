@@ -39,9 +39,15 @@ class AnimationController {
     const targetClass = element.dataset.animateTarget;
     const transitionClass = element.dataset.transitionClass;
 
-    if (targetClass && transitionClass) {
-      const targetElement = element.querySelector(`.${targetClass}`) || element;
-      targetElement.classList.add(transitionClass);
+    if (transitionClass) {
+      if (targetClass) {
+        const targetElement = element.querySelector(`.${targetClass}`);
+        if (targetElement) {
+          targetElement.classList.add(transitionClass);
+        }
+      } else {
+        element.classList.add(transitionClass);
+      }
     }
   }
 
