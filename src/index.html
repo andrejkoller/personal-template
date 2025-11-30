@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <title>andrej</title>
+    <title>Andrej Koller</title>
     <link rel="stylesheet" href="/src/css/stylesheet.css" />
     <link rel="icon" href="/src/assets/images/letter_header.png" />
     <script
@@ -53,9 +53,14 @@
           </div>
         </div>
       </div>
-      <div class="introduction-image">
+      <div 
+        class="introduction-image"
+        data-animate
+        data-animate-target="introduction-image-profile"
+        data-transition-class="introduction-image-transition"
+      >
         <img
-          class="introduction-image-profile introduction-image-transition"
+          class="introduction-image-profile"
           src="/src/assets/images/placeholder-image.jpg"
           alt="introduction-image"
         />
@@ -63,7 +68,9 @@
     </div>
 
     <div
-      class="description-container w-container description-container-profile description-container-transition"
+      class="description-container w-container description-container-profile"
+      data-animate
+      data-transition-class="description-container-transition"
     >
       <div class="description-content" id="description-section">
         <div class="description-title">
@@ -97,7 +104,9 @@
     </div>
 
     <div
-      class="project-container w-container project-profile project-transition"
+      class="project-container w-container project-profile"
+      data-animate
+      data-transition-class="project-profile-transition"
     >
       <div class="project-content-middle">
         <div class="project-container-middle">
@@ -128,7 +137,11 @@
     </div>
 
     <div class="vita-container w-container">
-      <div class="vita-content vita-content-profile vita-content-transition">
+      <div 
+        class="vita-content vita-content-profile"
+        data-animate
+        data-transition-class="vita-content-transition"
+      >
         <div class="vita-title">
           <h4>About me</h4>
           <h3>
@@ -201,5 +214,7 @@
         <img src="/src/assets/images/piano_logo.png" />
       </div>
     </div>
+
+    <script src="/src/js/main.js"></script>
   </body>
 </html>
