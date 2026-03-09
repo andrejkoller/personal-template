@@ -47,4 +47,3 @@ npx http-server
 <img width="1920" height="1080" alt="Screenshot 2" src="https://github.com/user-attachments/assets/28584b23-60c3-4b12-a83a-c4989e94dc59" />
 <img width="1920" height="1080" alt="Screenshot 3" src="https://github.com/user-attachments/assets/24435ece-9871-4bab-a6b9-85c926cd9d44" />
 <img width="1920" height="1080" alt="Screenshot 4" src="https://github.com/user-attachments/assets/79853af5-7bee-43e2-b0b8-de77e1ecefa3" />
-
